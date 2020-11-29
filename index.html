@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkDown Editor</title>
+    <style>
+        html,body {
+            margin: 0;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="css/color_var.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="editor_area"></div>
+    <script src="js/app.js"></script>
+    <script>
+        let editorConfig = {
+            element: ".editor_area",
+            theme: "dark",
+            name: "markdownEditor",
+        }
+        let marknow = new MarkNowEditor(editorConfig);
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.mn-e {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: var(--bg-color);
+    cursor: text;
+    font-size: 17px;
+    .mn-e-lines-area {
+        width: 35px;
+        padding-right: 42px;
+        flex:  0 0 auto;   
+        color: var(--line-number-color);
+        text-align: right;
+    }
+}
